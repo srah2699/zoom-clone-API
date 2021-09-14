@@ -1,6 +1,6 @@
 import database from "./database";
 
-const constants = {
+const constants: ConstantsBundle = {
     database
 };
 
