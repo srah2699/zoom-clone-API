@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 
 //import users from "./users";
-//import meetings from "./meetings";
+import meetings from "./meeting";
 
 function notFound (req: Request, res: Response, next: NextFunction) {
     res.status(404).send({ error: "NOT_FOUND" });
@@ -9,7 +9,7 @@ function notFound (req: Request, res: Response, next: NextFunction) {
 
 const routes = {
     //users,
-    //meetings,
+    meetings,
     notFound
 };
 

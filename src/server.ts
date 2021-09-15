@@ -13,7 +13,7 @@ async function main () {
     await configs.database.connectToDatabase();
 
     //app.use("/users", routes.users);
-    //app.use("/meetings", routes.meetings);
+    app.use("/meetings", routes.meetings);
     app.use(routes.notFound);
 
     app.listen(PORT, function (): void {

@@ -1,9 +1,9 @@
 //import users from "./users";
-//import meetings from "./meetings";
+import meeting from "./meeting";
 
 const controllers = {
 //    users,
-//    meetings
+    meeting
 };
 
 export default controllers;
