@@ -1,24 +1,17 @@
 {
   "name": "zoom-api-clone",
   "version": "1.0.0",
-  "description": "Team Legion A basic implementation of an API for a video calling application inspired by Zoom. The project is intended to familiarise the concept of REST API development using Express.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node dist/server.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/server.js\"",
     "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/raghavendra.eeti/zoom-api-clone.git"
-  },
-  "author": "Team Legion, Cimpress Technology",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/raghavendra.eeti/zoom-api-clone/issues"
-  },
-  "homepage": "https://gitlab.com/raghavendra.eeti/zoom-api-clone#readme",
   "dependencies": {
+    "axios": "^0.21.4",
     "dynamoose": "^2.8.1",
     "express": "^4.17.1",
     "mongoose": "^6.0.5",
